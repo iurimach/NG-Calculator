@@ -1,29 +1,52 @@
-.calculator{
+.textdiv{
+    width: 99%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.text{
+  margin: 0 auto;
     
+}
+.calculator{
+    margin: 0 auto;
    border: 2px solid rgb(119, 108, 108);
-   width: 133px;
-   height: 165px;
+   max-width: 235px;
+   height: 310px;
 }
 .input1{
-    width: 121px;
+    max-width: 221px;
+    width: 95%;
+    height: 40px;
     margin-top: 5px;
     margin-left: 3px;
 }
 .wrappernumber{
-   max-width: 132px;
-    height: 132px;
+   max-width: 230px;
+    height: 240px;
+    margin-left: 3px;
    
     background-color: rgb(220, 238, 238);
    
 }
 .div1{
-    margin-top: 5px;
- padding-top: 2px;
+    margin-top: 10px;
+ padding-top: 10px;
 }
 .btt{
-    width: 30px;
-    height: 30px;
-    margin-left: 2px;
+    width: 50px;
+    height: 50px;
+    margin-left: 4px;
     
-    margin-bottom: 2px;
+    margin-bottom: 4px;
+}
+
+/*--------------- response -------------------------- */
+
+@media (max-width :240px){
+    .btt{
+        
+        width: 35px;
+         height:35px;
+    }
 }
