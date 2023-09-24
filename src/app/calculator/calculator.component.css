@@ -1,0 +1,29 @@
+.calculator{
+    
+   border: 2px solid rgb(119, 108, 108);
+   width: 133px;
+   height: 165px;
+}
+.input1{
+    width: 121px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.wrappernumber{
+   max-width: 132px;
+    height: 132px;
+   
+    background-color: rgb(220, 238, 238);
+   
+}
+.div1{
+    margin-top: 5px;
+ padding-top: 2px;
+}
+.btt{
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+    
+    margin-bottom: 2px;
+}

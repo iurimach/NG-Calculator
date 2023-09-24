@@ -1,0 +1,31 @@
+<p>calculator works!</p>
+<div class="calculator">
+    <input type="text" [(ngModel)]="expression" [disabled]="isResultDisplayed" class="input1" />
+    <div class="wrappernumber">
+        <div class="div1">
+            <button (click)="appendToExpression('1')" class="btt">1</button>
+            <button (click)="appendToExpression('2')"class="btt">2</button>
+            <button (click)="appendToExpression('3')"class="btt">3</button>
+            <button (click)="appendToExpression('+')"class="btt">+</button>
+        </div>
+        <div>
+            <button (click)="appendToExpression('4')"class="btt">4</button>
+            <button (click)="appendToExpression('5')"class="btt">5</button>
+            <button (click)="appendToExpression('6')"class="btt">6</button>
+            <button (click)="appendToExpression('-')"class="btt">-</button>
+        </div>
+        <div>
+            <button (click)="appendToExpression('7')"class="btt">7</button>
+            <button (click)="appendToExpression('8')"class="btt">8</button>
+            <button (click)="appendToExpression('9')"class="btt">9</button>
+            <button (click)="appendToExpression('*')"class="btt">*</button>
+        </div>
+        <div>
+            <button (click)="appendToExpression('0')"class="btt">0</button>
+            <button (click)="clearExpression()"class="btt">C</button>
+            <button (click)="calculateResult()"class="btt">=</button>
+            <button (click)="appendToExpression('/')"class="btt">/</button>
+         </div>
+    </div>
+  </div>
+  
